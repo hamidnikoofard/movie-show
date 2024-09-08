@@ -1,0 +1,149 @@
+.img-width{
+    width: 100%;
+    height: auto;
+}
+.explore{
+    margin-top: 200px;
+}
+
+.explore-title-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h2{
+    font-size: 38px;
+    color: #ffff;
+}
+
+.title p{
+    font-size: 18px;
+    color: gray;
+    max-width: 600px;
+}
+
+.button-souper{
+    display: flex;
+    background-color: #000000;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.liner{
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.liner-1 , .liner-2 , .liner-3{
+    width: 24px;
+    height: 4px;
+    background-color: gray;
+}
+
+.liner-1{
+    background-color: #e50000;
+}
+
+.button-souper{
+    width: 199px;
+    height: 80px;
+}
+
+.button-souper button{
+    border: none;
+    background-color: #1a1a1a;
+    padding: 14px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.explore-movie-box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.movie-box{
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 80px;
+}
+
+.movie-genre{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.owl-prev span{
+    display: none;
+}
+
+.owl-next span{
+    display: none;
+}
+
+.owl-prev::before{
+    content: "\2190"; 
+    border: none;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: absolute;
+    top: -20%;
+    right: -2%;
+}
+
+
+.owl-next::before{
+    content: "\2192"; 
+    border: none;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: absolute;
+    top: -20%;
+    left: 81%;
+}
+
+
+
+
+.owl-dot span {
+    width: 24px !important;
+    height: 4px !important;
+    background-color: gray !important;
+}
+
+.owl-dot.active span{
+    background-color: #e50000 !important;
+}
+
+.owl-dots{
+    position: absolute;
+    top: -16%;
+    right: 2%;
+}
